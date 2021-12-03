@@ -1,16 +1,18 @@
 // import logo from './logo.svg';
 import Navbar from './Navbar';
-import './App.css';
+// import './App.css';
 import TextForm from './TextForm';
+// import About from './About';
 // import Welcome from './welcome';
 
 function App() {
   return (
     <>
-    {/* <Navbar title="Navbar" aboutus ="About Us"/> */}
-    <Navbar />
+    <Navbar title="Navbar" aboutus ="About Us"/>
+    {/* <Navbar /> */}
     <div className="container my-3">
     <TextForm heading="Write Comment in box below"/>
+    {/* <About /> */}
     </div>
     
 </>
